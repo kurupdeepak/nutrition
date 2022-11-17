@@ -1,0 +1,15 @@
+# ws = 'C://Users/kurup/PycharmProjects/nutrition'
+# ws = 'E://nutrition5k_dataset/imagery'
+ws = 'E://nutrition5k_dataset'
+dataset_imagery_basedir = 'E://nutrition5k_dataset/imagery'
+dish_metadata_basedir = "E://nutrition5k_dataset/metadata"
+splits_dir = "E://nutrition5k_dataset/dish_ids/splits"
+dish_images_path = dataset_imagery_basedir + '/realsense_overhead/'
+depth_train_file = "/depth_train_ids.txt"
+depth_test_file = "/depth_test_ids.txt"
+rgb_train_file = "/rgb_train_ids.txt"
+rgb_test_file = "/rgb_test_ids.txt"
+dish_cafe1_file = "/dish_metadata_cafe1.csv"
+dish_cafe2_file = "/dish_metadata_cafe2.csv"
+dish_ingredients_file = '/ingredients_metadata.csv'
+dish_id_col = ["dish_id"]
