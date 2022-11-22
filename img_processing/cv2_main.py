@@ -66,7 +66,7 @@ class CV2Helper:
             print("Create dir failed" + base_dir)
 
         for cnt in contours:
-            # calculate epsilon base on contour's perimeter
+            # calculate epsilon base-1 on contour's perimeter
             # contour's perimeter is returned by cv2.arcLength
             epsilon = 0.01 * cv2.arcLength(cnt, True)
             # get approx polygons

@@ -1,6 +1,6 @@
 .idea
 __pycache__/
 envs
-core/__pycache__
-core/vit/__pycache__
+core-one/__pycache__
+core-one/vit/__pycache__
 .ipynb_checkpoints
